@@ -49,7 +49,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-6">
                   <div class="form-group">
                     <label for="inputName" class="col-sm-3 col-form-label">Category</label>
                     <div class="col-sm-12">
@@ -64,7 +64,14 @@
                     </select>
                     </div>
                   </div>
-                </div></div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label>URL Video</label>
+                    <input type="text" class="form-control" name="products_url" placeholder="Link Video Youtube">
+                  </div>
+                </div>
+              </div>
                   <div class="row">
                     <div class="col-sm-12">
                       <div class="form-group">
