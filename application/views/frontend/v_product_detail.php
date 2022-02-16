@@ -80,7 +80,7 @@
                     }else {
                       echo " <img src='".base_url()."bahan/foto_products/".$posts->products_gambar3."' data-src='".base_url()."bahan/foto_products/".$posts->products_gambar3."'  class='lazy'> ";}
                     ?>
-            </a>
+                  </a>
             </div><!-- .ashade-gallery-item -->
             <div class="ashade-gallery-item ashade-grid-item">
 
@@ -111,6 +111,18 @@
                       echo " <img src='".base_url()."bahan/foto_products/".$posts->products_gambar6."' data-src='".base_url()."bahan/foto_products/".$posts->products_gambar6."'  class='lazy'> ";}
                     ?>
               </a>
+            </div><!-- .ashade-gallery-item -->
+            <div class="ashade-gallery-item ashade-grid-item">
+
+              <?php
+                    if(empty($posts->products_url)) {
+                      echo "";
+                    }else {
+                      echo "
+                      <iframe width='100%' height='300px' src='https://www.youtube.com/embed/$posts->products_url' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen>
+                        </iframe>";}
+                    ?>
+
             </div><!-- .ashade-gallery-item -->
 					</div>
 
